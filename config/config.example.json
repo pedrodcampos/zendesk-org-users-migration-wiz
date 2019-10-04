@@ -1,0 +1,13 @@
+{
+    "development":{
+        "zendesk_url": "https://your-dev-instance.zendesk.com",
+        "user": "your-email@your-company.com",
+        "password": "P455W0RD"
+    },
+    "production":{
+        "zendesk_url": "https://your-prod-instance.zendesk.com",
+        "user": "your-email@your-company.com",
+        "password": "P455W0RD"
+
+    }
+}
