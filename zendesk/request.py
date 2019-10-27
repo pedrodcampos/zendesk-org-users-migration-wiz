@@ -65,7 +65,7 @@ def check_job_status(ref,response):
         
         response = zendesk_get(job_status_url,'job_status')
         if response:
-            results = response['results']
+            results = response['results'] or []
             status = response['status']
             for result in results:
                 if result.get('error', None):
